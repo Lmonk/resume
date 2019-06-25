@@ -1,3 +1,8 @@
+body.body {
+    background: #fff;
+    filter: none;
+}
+
 .hide-lte-ie-8 {
     display: none;
 }
