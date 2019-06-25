@@ -1,0 +1,20 @@
+body.centered .content {
+    margin: 20px auto;
+}
+
+.column {
+    float: left;
+}
+
+.column:first-child {
+    width: 35%;
+    padding-right: 8px;
+    margin-right: 0;
+}
+
+.content:after { 
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+ }

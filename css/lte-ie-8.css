@@ -1,0 +1,29 @@
+.hide-lte-ie-8 {
+    display: none;
+}
+
+.stop-ie-block {
+    margin: 30px auto 0;
+    text-align: center;
+    width: 50%;
+}
+
+.morpheus-picture {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.stop-ie-block a {
+    width: 80px;
+    height: 30px;
+    display: inline-block;
+}
+
+.blue-pill {
+    background: #1565c0;
+}
+
+.red-pill {
+    margin-right: 20px;
+    background: #b92b27;
+}

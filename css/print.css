@@ -1,0 +1,21 @@
+body {
+  background: #fff;
+}
+.content {
+  box-shadow: none !important;
+  margin: 10px;
+}
+section {
+  margin-top: 0;
+  box-shadow: none;
+  border-top: 2px dashed #ddd;
+}
+
+section:first-child {
+  border: none;
+}
+
+.column:first-child {  
+  margin-right: 0;
+  border-right: 2px dashed #ddd;
+}
