@@ -9,60 +9,60 @@ html {
 body {
   display: flex;
   justify-content: center;
-  font-family: 'Source Sans Pro', sans-serif;    
+  font-family: 'Open Sans', sans-serif;
   align-items: center;
   background: #fff;
 }
 
-body.jshine-gradient { 
+body.jshine-gradient {
   background: linear-gradient(to bottom, #12c2e9, #c471ed, #f64f59);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#12c2e9', EndColorStr='#f64f59'); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#12c2e9', EndColorStr='#f64f59');
 
 }
 
-body.evening-sunshine-gradient { 
+body.evening-sunshine-gradient {
   background: linear-gradient(to bottom, #b92b27, #1565c0);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#b92b27', EndColorStr='#1565c0'); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#b92b27', EndColorStr='#1565c0');
 }
 
-body.dark-ocean-gradient { 
-  background: linear-gradient(to bottom, #4286f4, #373b44);  
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#4286f4', EndColorStr='#373b44'); 
+body.dark-ocean-gradient {
+  background: linear-gradient(to bottom, #4286f4, #373b44);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#4286f4', EndColorStr='#373b44');
 }
 
-body.witching-hour-gradient { 
+body.witching-hour-gradient {
   background: linear-gradient(to bottom, #c31432, #240b36);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#c31432', EndColorStr='#240b36'); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#c31432', EndColorStr='#240b36');
 }
 
-body.kye-meh-gradient { 
+body.kye-meh-gradient {
   background: linear-gradient(to bottom, #2ebf91, #8360c3);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#2ebf91', EndColorStr='#8360c3'); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#2ebf91', EndColorStr='#8360c3');
 }
 
-body.kyoo-tah-gradient { 
+body.kyoo-tah-gradient {
   background: linear-gradient(to bottom, #544a7d, #ffd452);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#544a7d', EndColorStr='#ffd452'); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#544a7d', EndColorStr='#ffd452');
 }
 
-body.sea-sunshine-gradient { 
+body.sea-sunshine-gradient {
   background: linear-gradient(to bottom, #009fff, #ec2f4b);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#009fff', EndColorStr='#ec2f4b'); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#009fff', EndColorStr='#ec2f4b');
 }
 
-body.expresso-gradient { 
+body.expresso-gradient {
   background: linear-gradient(to bottom, #ad5389, #3c1053);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#ad5389', EndColorStr='#3c1053'); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#ad5389', EndColorStr='#3c1053');
 }
 
-body.pun-yeta-gradient { 
+body.pun-yeta-gradient {
   background: linear-gradient(to bottom, #108dc7, #ef8e38);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#108dc7', EndColorStr='#ef8e38'); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#108dc7', EndColorStr='#ef8e38');
 }
 
-body.crimson-tide-gradient { 
+body.crimson-tide-gradient {
   background: linear-gradient(to bottom, #642b73, #c6426e);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#642b73', EndColorStr='#c6426e'); 
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#642b73', EndColorStr='#c6426e');
 }
 
 svg {
@@ -80,11 +80,11 @@ body.evening-sunshine-gradient svg {
 }
 
 body.dark-ocean-gradient svg {
-  color: rgb(66, 134, 244);  
+  color: rgb(66, 134, 244);
 }
 
 body.witching-hour-gradient svg {
-  color: rgb(195, 20, 50);   
+  color: rgb(195, 20, 50);
 }
 
 body.kye-meh-gradient svg {
@@ -111,7 +111,7 @@ body.crimson-tide-gradient  svg {
   color: rgb(100, 43, 115)
 }
 
-body.centered {  
+body.centered {
   position: fixed;
   top: 0;
   left: 0;
@@ -119,7 +119,7 @@ body.centered {
   bottom: 0;
 }
 
-/*.backdrop {  
+/*.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -134,8 +134,12 @@ h3 {
   margin: 0;
 }
 
-h5, p {  
-  margin: 10px 0;
+h5, p {
+  margin: 8px 0;
+}
+
+h5 {
+  font-size: 14px;
 }
 
 h3:last-child, h5:last-child, p:last-child {
@@ -143,7 +147,7 @@ h3:last-child, h5:last-child, p:last-child {
 }
 
 li, p {
-  font-size: 0.9em;
+  font-size: 14px;
   color: #888;
 }
 
@@ -183,8 +187,8 @@ ul {
   display: flex;
 }
 
-.mb-10 {
-  margin-bottom: 10px;
+.mb-15 {
+  margin-bottom: 15px;
 }
 
 .mb-15 {
@@ -197,7 +201,7 @@ ul {
 }
 
 .profile-picture {
-  width: 125px;
+  width: 150px;
   border-radius: 100%;
   margin-bottom: 5px;
 }
@@ -221,7 +225,7 @@ ul {
 
 .column:first-child section {
   flex-direction: column;
-  display: flex;    
+  display: flex;
   flex-grow: 1;
   justify-content: space-around;
 }
@@ -235,7 +239,7 @@ ul {
   flex-grow: 1;
 }
 
-section {  
+section {
   background: #fff;
   box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   padding: 15px 20px;
